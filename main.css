@@ -1,4 +1,12 @@
 body {
   background-color: #f8f0e3;
 }
+
+#navbarTitle {
+  color: white;
+}
+
+#navButton {
+  background-color: #f8f0e3;
+}
 /*# sourceMappingURL=main.css.map */

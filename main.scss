@@ -1,5 +1,14 @@
 $color : #f8f0e3;
+$textColor : white;
 
 body {
+    background-color: $color;
+}
+
+#navbarTitle {
+    color: $textColor;
+}
+
+#navButton {
     background-color: $color;
 }
