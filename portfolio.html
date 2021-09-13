@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="/main.css">
   </head>
   <body>
     
 <!-- Nav Bar -->
-    <nav class="navbar navbar-light bg-light fixed-top">
+    <nav class="navbar navbar-light bg-dark fixed-top">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Brenden Mason</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
@@ -21,16 +22,17 @@
             <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Brenden Mason</h5>
             <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
           </div>
-          <div class="offcanvas-body">
+          <div class="offcanvas-body align-middle">
             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact Me</a>
+                <button type="button" class="btn btn-outline-primary btn-lg px-4 me-sm-3">Contact Me</button>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Projects</a>
+                <button type="button" class="btn btn-outline-danger btn-lg px-4 me-sm-3">Tech Stack</button>
+              </li>
+              <li class="nav-item">
+                <button type="button" class="btn btn-outline-success btn-lg px-4 me-sm-3">My Links</button>
               </li>
             </ul>
           </div>
