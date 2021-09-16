@@ -13,7 +13,7 @@ body {
     background-color: $color;
 }
 
-h1 {
+#mainTitle {
     font-family: bely-display, sans-serif;
 }
 
@@ -32,5 +32,11 @@ button {
 p {
     font-family: bely, serif;
     font-weight: 400;
+    font-style: normal;
+}
+
+#notMain {
+    font-family: bely, serif;
+    font-weight: 700;
     font-style: normal;
 }
