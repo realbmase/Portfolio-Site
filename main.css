@@ -38,7 +38,7 @@ p {
   font-style: normal;
 }
 
-#footerImages {
+#footerImages:hover {
   background-color: red;
 }
 /*# sourceMappingURL=main.css.map */
