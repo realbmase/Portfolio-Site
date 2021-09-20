@@ -38,7 +38,15 @@ p {
   font-style: normal;
 }
 
+.footerImages {
+  margin: 1.5%;
+}
+
 #footerImages:hover {
-  background-color: red;
+  fill: red;
+}
+
+#mainImage {
+  max-width: 100%;
 }
 /*# sourceMappingURL=main.css.map */
