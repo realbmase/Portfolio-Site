@@ -54,4 +54,10 @@ p {
   border: none;
   border-top: 5px solid #000;
 }
+
+#techStack {
+  max-width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
 /*# sourceMappingURL=main.css.map */
