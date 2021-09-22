@@ -62,4 +62,8 @@ p {
           transform: scale;
   float: right;
 }
+
+a :active {
+  color: red;
+}
 /*# sourceMappingURL=main.css.map */
