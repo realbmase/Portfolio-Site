@@ -56,8 +56,6 @@ p {
 }
 
 #techStack {
-  max-width: 100%;
-  -o-object-fit: contain;
-     object-fit: contain;
+  width: 100%;
 }
 /*# sourceMappingURL=main.css.map */
