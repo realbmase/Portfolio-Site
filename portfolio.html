@@ -172,22 +172,24 @@
             <a href="#" type="button" class="btn btn-outline-dark btn-lg px-4 me-sm-3">Back to Top</a>
           </div>
           <div class="col-md-10 mx-auto col-lg-5">
-            <form class="p-4 p-md-5 border rounded-3 bg-dark">
+            <form action="https://formsubmit.co/brenden.mason321@gmail.com" method="POST" class="p-4 p-md-5 border rounded-3 bg-dark">
               <div class="form-floating mb-3">
-                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                <label for="floatingInput">Email</label>
+                <input type="hidden" name="_subject" value="Great work on the portfolio site!">
+                <input type="hidden" name="_next" value="https://brendenmason.dev/thankyou.html">
+                <input type="hidden" name="_captcha" value="false">
+                <input type="text" name="name" required class="form-control" id="floatingInput" placeholder="Name">
+                <label for="floatingInput">Name</label>
               </div>
               <div class="form-floating mb-3">
-                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-                <label for="floatingPassword">Subject</label>
+                <input type="email" name="email" required class="form-control" id="floatingInput" placeholder="Your Email">
+                <label for="floatingPassword">Your Email</label>
               </div>
               <div class="form-floating mb-3">
-                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-                <label for="floatingPassword">Text here</label>
+                <input name="textarea" type="text" class="form-control" id="floatingInput" placeholder="Message">
+                <label for="floatingInput">Message</label>
               </div>
-              <button class="w-100 btn btn-lg btn-primary" type="submit">Sign up</button>
+              <button class="w-100 btn btn-lg btn-secondary" type="submit">Submit</button>
               <hr class="my-4">
-              <small class="text-muted">By clicking Sign up, you agree to the terms of use.</small>
             </form>
           </div>
         </div>
@@ -199,7 +201,7 @@
 <!-- Links to social media -->      
       <div class="bg-dark text-secondary px-1 py-1 text-center">
         <div class="py-5">
-          <img src="./portfolio/github-icon.svg" class="img-fluid w-1 footerImages" alt="Brenden's Github" href="https://github.com/realbmase" width="100rem" id="footerImages">
+          <img src="./portfolio/github-icon.svg" class="img-fluid w-1 footerImages bg-secondary" alt="Brenden's Github" href="https://github.com/realbmase" width="100rem" id="footerImages">
           <img src="./portfolio/instagram-icon.svg" class="img-fluid w-1 footerImages" alt="Brenden's Instagram" href="https://www.instagram.com/brendenmason/" width="100rem" id="footerImages">
         </div>
       </div>
