@@ -43,6 +43,7 @@ p {
 
 .footerImages {
     margin: 1.5%;
+    filter: invert(1);
 }
 
 #footerImages:hover {
@@ -53,16 +54,10 @@ p {
     max-width: 100%;
 }
 
-.horizRule {
-    border: none;
-    border-top: 5px solid #000;
-}
-
 .techStack {
     max-width: 50rem;
     height:auto;
-    transform: scale;
-    background-size: contain;
+    display: block;
 }
 
 a :active {
