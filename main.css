@@ -55,15 +55,24 @@ p {
   border-top: 5px solid #000;
 }
 
-#techStack {
-  max-width: 100%;
+.techStack {
+  max-width: 50rem;
   height: auto;
   -webkit-transform: scale;
           transform: scale;
-  float: right;
+  background-size: contain;
 }
 
 a :active {
   color: red;
+}
+
+h1,
+p {
+  margin-bottom: 0.75em;
+}
+
+.display-none {
+  visibility: hidden;
 }
 /*# sourceMappingURL=main.css.map */
