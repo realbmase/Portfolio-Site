@@ -1,3 +1,10 @@
+*, 
+*::after, 
+*::before {
+    margin: 0;
+    box-sizing: inherit;
+}
+
 $color : #f8f0e3;
 $textColor : white;
 

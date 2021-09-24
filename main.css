@@ -1,3 +1,11 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
 body {
   background-color: #f8f0e3;
 }
