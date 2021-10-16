@@ -70,4 +70,19 @@ p {
 .display-none {
   visibility: hidden;
 }
+
+/* ------------Media Queries------------- */
+
+@media screen and (max-width: 992px) {
+  .breakDown {
+    display: block;
+  }
+}
+
+
+
+
+
+
+
 /*# sourceMappingURL=main.css.map */
