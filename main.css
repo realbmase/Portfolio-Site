@@ -55,9 +55,9 @@ p {
 }
 
 .techStack {
-  max-width: 50rem;
+  max-width: 10rem;
   height: auto;
-  display: block;
+  display: inline-block;
 }
 
 a :active {
@@ -87,6 +87,10 @@ p {
   }
   .btn {
     font-size: 28px;
+    margin: 10px;
+  }
+  #mainImage {
+    margin-top: 40px;
   }
 }
 
